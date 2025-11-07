@@ -1,12 +1,9 @@
 describe('Set', () => {
 
     beforeAll(() => {
-        console.log('beforeAll');
         // Casos de pruebas integración
         // up db
     })
-
-
     test('case 1', () => {
         expect(1 + 1).toBe(2)
     })
@@ -16,11 +13,9 @@ describe('Set', () => {
 
     describe('Other group', () => {
         test('case 3', () => {
-            console.log('case 3');
             expect(1 + 1).toBe(2)
         })
         test('case 4', () => {
-            console.log('case 4');
             expect(1 + 3).toBe(4)
         })
     })
